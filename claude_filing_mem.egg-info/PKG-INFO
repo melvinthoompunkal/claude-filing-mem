@@ -1,9 +1,0 @@
-Metadata-Version: 2.4
-Name: claude-filing-mem
-Version: 0.1.0
-Summary: A filing system for Claude's memory — organized, intentional, and context-efficient
-Requires-Python: >=3.10
-Description-Content-Type: text/markdown
-Requires-Dist: mcp
-Requires-Dist: anthropic
-Requires-Dist: python-dotenv
