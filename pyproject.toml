@@ -1,0 +1,22 @@
+[build-system]
+requires = ["setuptools>=42"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "claude-filing-mem"
+version = "0.1.0"
+description = "A filing system for Claude's memory — organized, intentional, and context-efficient"
+readme = "README.md"
+requires-python = ">=3.10"
+dependencies = [
+    "mcp",
+    "anthropic",
+    "python-dotenv"
+]
+
+[project.scripts]
+claude-filing-mem = "server:main"
+claude-filing-mem-setup = "server:setup"
+
+[tool.setuptools.packages.find]
+where = ["."]
